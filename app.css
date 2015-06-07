@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  max-width: 100%;
+}
+button{
+  font-size: 141%;
+  width: 100%;
+  padding: 0.25em 0;
+}
+.hide{
+  display: none;
+}
+[data-role=panel]{
+  height: 100vh;
+  width: 100vw;
+}
+#buffer{
+  display: none;
+}

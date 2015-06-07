@@ -1,0 +1,25 @@
+{
+  "name": "SimpleCamera",
+  "description": "とても簡単なカメラアプリ",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },
+  "type": "privileged",
+  "permissions": {
+    "device-storage:pictures": {
+      "description": "撮影した写真の保存のため",
+      "access": "readwrite"
+    },
+    "desktop-notification": {
+      "description": "写真が保存できたかどうかを通知するため"
+    }
+  },
+  "developer": {
+    "name": "N.Shimizu",
+    "url": "http://github.com/chikoski/"
+  }
+}
